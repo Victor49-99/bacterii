@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Learner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main">
+    <button id="startBtn" onclick="startSession()">Start</button>
+    <div id="card" class="hidden" onclick="revealName()">
+      <img id="imgDisplay" src="">
+      <p id="imgName" class="hidden"></p>
+    </div>
+
+    <button id="nextBtn" class="hidden" onclick="nextImage()">Next</button>
+    <button id="retryBtn" class="hidden" onclick="startSession()">Try Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
